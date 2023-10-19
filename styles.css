@@ -1,0 +1,38 @@
+/* Center the form and counter vertically and horizontally */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Style the button using Bulma */
+#submitButton {
+    font-size: 1rem;
+    background-color: blue; /* Set button background color to blue */
+    color: white; /* Set text color to white */
+    padding: 10px 20px; /* Increase padding for a larger button */
+}
+
+/* Increase the counter size */
+#counterValue {
+    font-size: 3rem; /* Make the counter text three times as large */
+}
+
+/* Make the counter label the same size as the counter */
+#counter label {
+    font-size: 3rem; /* Set the same font size as the counter text */
+}
+
+/* Center labels and button in the form */
+.form-label {
+    text-align: center;
+}
+.form-input {
+    text-align: center;
+}
+.form-button {
+    text-align: center;
+}
