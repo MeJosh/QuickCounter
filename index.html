@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter Page</title>
+</head>
+<body>
+    <div id="inputForm">
+        <form id="counterForm">
+            <label for="startingAmount">Starting Amount:</label>
+            <input type="number" id="startingAmount" required>
+            <br><br>
+            <label for="rate">Rate (#/min):</label>
+            <input type="number" id="rate" required>
+            <br><br>
+            <button id="submitButton">Submit</button>
+        </form>
+    </div>
+    <div id="counter" style="display: none;">
+        Counter: <span id="counterValue">0</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
